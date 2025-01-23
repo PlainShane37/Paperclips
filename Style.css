@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.jars
+{
+    text-align: center;
+    display: block;
+}
+#jar
+{
+    /* border-style: outset;  */
+    display: inline-block;
+}
+#opaquejar
+{
+    opacity: 90%;
+    height: 500px;
+}
+
+#paperclipsOne
+{
+    height: 250px; 
+    width: 230px;
+
+    position: absolute;
+    top:300px;
+    left: 590px;
+
+    /* transform: scaleY(-1); */
+}
+#paperclipsTwo
+{
+    height: 250px;
+    width: 230px;
+
+    position: absolute;
+    top:300px;
+    left: 1100px;
+}
+
+#whiteOne
+{
+    position: absolute;
+
+    top:300px;
+    left: 590px;
+}
+
+#whiteTwo
+{
+    position: absolute;
+
+    top:300px;
+    left: 1100px;
+}
+
+button{
+    display: block;
+    margin: auto;
+}

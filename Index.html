@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type="text/css" href = "Style.css">
+
+        <h1>The Paperclip Strategy</h1>
+
+        <h3><label for = "total">How many paperclips are there in total? (from 1-120) </label>
+            <input type = "number" id = "total" value = "5" min = "1" max="120">
+        </h3>
+    </head>
+
+    <body>
+
+        <img src = "Images/Paperclips.jpg" id = "paperclipsOne">
+        <img src = "Images/Paperclips.jpg" id = "paperclipsTwo">
+
+        <img src = "Images/White.jpg" id = "whiteOne" height = "0" width = "230">
+        <img src = "Images/White.jpg" id = "whiteTwo" height = "250" width = "230">
+
+        <div class = "jars">
+            <div id = "jar">
+                <h4>Jar One</h4>
+                <img src = "Images/Jar.jpg" id = "opaquejar">
+                <h5 id = "numberOfClipsOne">Number of paperclips in this jar: </h5>
+            </div>
+
+            <div id = "jar">
+                <h4>Jar Two</h4>
+                <img src = "Images/Jar.jpg" id = "opaquejar">
+                <h5 id = "numberOfClipsTwo">Number of paperclips in this jar: </h5>
+            </div>
+        </div>
+
+        <button type="button" onclick="changeTotals()">Press here to transfer a paperclip from one jar to the other!</button>
+
+        <script src = "Index.js"></script>
+    </body>
+
+</html>
